@@ -10,11 +10,11 @@
     -gtk-icon-source: url("assets/checkbox-unchecked-insensitive.svg");
 }
 
-.check:checked {
+.check:active {
     -gtk-icon-source: url("assets/checkbox-checked.svg");
 }
 
-.check:checked:insensitive {
+.check:active:insensitive {
     -gtk-icon-source: url("assets/checkbox-checked-insensitive.svg");
 }
 
@@ -34,11 +34,11 @@
     -gtk-icon-source: url("assets/radio-unselected-insensitive.svg");
 }
 
-.radio:checked {
+.radio:active {
     -gtk-icon-source: url("assets/radio-selected.svg");
 }
 
-.radio:checked:insensitive {
+.radio:active:insensitive {
     -gtk-icon-source: url("assets/radio-selected-insensitive.svg");
 }
 
@@ -54,18 +54,15 @@
     -gtk-icon-source: none;
 }
 
-.menuitem.check:active,
-.menuitem.check:checked {
+.menuitem.check:active {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked.svg");
 }
 
-.menuitem.check:active:hover,
-.menuitem.check:checked:hover {
+.menuitem.check:active:hover {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked-hover.svg");
 }
 
-.menuitem.check:active:insensitive,
-.menuitem.check:checked:insensitive {
+.menuitem.check:active:insensitive {
     -gtk-icon-source: url("assets/menuitem-checkbox-checked-insensitive.svg");
 }
 
@@ -88,18 +85,15 @@
     -gtk-icon-source: none;
 }
 
-.menuitem.radio:active,
-.menuitem.radio:checked {
+.menuitem.radio:active {
     -gtk-icon-source: url("assets/menuitem-radio-checked.svg");
 }
 
-.menuitem.radio:active:hover,
-.menuitem.radio:checked:hover {
+.menuitem.radio:active:hover {
     -gtk-icon-source: url("assets/menuitem-radio-checked-hover.svg");
 }
 
-.menuitem.radio:active:insensitive,
-.menuitem.radio:checked:insensitive {
+.menuitem.radio:active:insensitive {
     -gtk-icon-source: url("assets/menuitem-radio-checked-insensitive.svg");
 }
 
