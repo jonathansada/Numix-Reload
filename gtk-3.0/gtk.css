@@ -10,12 +10,12 @@
 @define-color text_color #333333;
 @define-color selected_bg_color #d64937;
 @define-color selected_fg_color #f9f9f9;
-@define-color tooltip_bg_color #2d2d2d;
-@define-color tooltip_fg_color #dcdcdc;
+@define-color tooltip_bg_color #dedede;
+@define-color tooltip_fg_color #555555;
 
 /* dark color scheme */
-@define-color dark_bg_color #2d2d2d;
-@define-color dark_fg_color #dcdcdc;
+@define-color dark_bg_color #dedede;
+@define-color dark_fg_color #555555;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -58,8 +58,8 @@
 @define-color panel_fg_color @dark_fg_color;
 
 /* osd */
-@define-color osd_base @dark_bg_color;
-@define-color osd_fg @dark_fg_color;
+@define-color osd_base #2d2d2d;
+@define-color osd_fg #dcdcdc;
 @define-color osd_bg alpha(@osd_base, 0.8);
 
 /* lightdm greeter colors */
